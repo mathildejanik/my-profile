@@ -1,0 +1,120 @@
+/* Colors and fonts */
+
+body {
+	background: #EAE0D5;
+	color: #0A0908;
+	font-family: Times, serif;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 1.5;
+}
+
+h1{
+	
+	color: #B6956F;
+	font-family: Playfair Display;
+	font-size: 28px;
+	font-weight: 500;
+}
+h2 {
+  color: #5E503F;
+	font-size: 20px;
+	font-family: Playfair Display;
+	font-weight: 200;
+}
+
+a {
+	text-decoration: none;
+	color: #C6AC8F;
+	font-weight: bold;
+	font-size: 20px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #5E503F;
+}
+
+/* division of sections */
+
+div{
+	text-align: center;
+	text-justify:values;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+div{
+	background: #EAE0D5;
+	margin: 15px 80px;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+#img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	padding: 10px auto;
+	border-radius: 50%;
+	}
+
+#introduction{
+	margin: 15px;
+	background: #EAE0D5;
+}
+
+.Passions {
+	margin: 15px 80px;
+	background:#F5F0EB;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card-white {
+	background: #F5F0EB;
+	margin 15px 80px;
+	padding: 10px 20px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#socials {
+	margin : 15px 80px;
+	background: #F5F0EB;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#logos {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#logos li{
+	display: inline;
+	padding: 15px;
+}
+
+#logos i{
+	font-size: 40px
+}
+
+#link-pinterest {
+	background-color: #C6AC8F;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+#link-pinterest:hover {
+	background-color: #5E503F;
+	color: white;
+}
+
+@media (max-width: 760px) {
+	#link-pinterest {
+		font-size: 15px;
+		
+}
